@@ -28,12 +28,12 @@
 # the delivery of this work
 ################################################################################
 header:
-  productName: FirstVision - LATAM
+  productName: BillPay
   productionDescription: REPLACEME
   whoIsItFor: REPLACEME
   image: 
     link: "/assets/images/Fiserv_Logo.jpg"
-    altText: FirstVision - LATAM™
+    altText: BillPay™
 steps:  
   learnSteps:
     - title: Learn
@@ -57,7 +57,7 @@ steps:
       link:
 featuredFeatures:
   - title: Credit Issuance
-    description:  FirstVision solution allows financial Institution to issue and manage the Credit Card products to their end customers. 
+    description:  BillPay solution allows financial Institution to issue and manage the Credit Card products to their end customers. 
     tags: ["APAC", "FirstVision", "Credit"]
     bullets: ["Activate Card", "Block Card", "Lost Stolen Card Transfer", "CVV2 Validation" ]  
     relatedDocs:
