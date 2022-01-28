@@ -1,39 +1,44 @@
 # Getting Started
 
-## Welcome to the Developer Studio!
+## Welcome to Bill Pay!
 
-To onboard into the `Fiserv Developer Studio` as a new Tenant each product must support following APIs standard. So that `Fiserv` will able to retrieve product API specifications and documentation.
+To get started with the Bill Pay APIs, follow these steps:
  
-## Setting up Tenant
+## Register
 
-Products within the Fiserv portfolio that are showcase through the Studio are known as `tenants`.  Tenants standup a `tenant server` that will serve all the content through the studio to developers visiting the Fiserv Developer Studio.
-For more information please refere to [Setup tenant](?path=docs/getting-started/setup-tenant/setup-tenant.md)
-
-
-## Deploying Tenant
-
-New registered Tenant must provide public tenant server.
-For more information please refer to [How to deploy tenant Server](?path=docs/getting-started/setup-tenant/deploy-tenant.md)
+Once agreements have been signed, a financial institution will work with Fiserv Professional services to set up certificates and a client ID.
 
 
-## Tenant Registration
+## Authenticate
 
-To get started with as a new Studio Tenant, developer needs to setup new account by [Tenant Registration](?path=docs/getting-started/setup-tenant/register-tenant.md)
+Authentication to the Bill Pay APIs is achieved using OAuth 2.0 via a custom grant. To obtain an access token, a JSON Web Token (JWT) must be constructed with some  minimum information: 
+Here is a sample JWT payload:
+
+{
+"iss":"Second National Bank",
+"aud":"Fiserv",
+"iat":"1543861896", "jti":"b5d2bcef-0a8b-4218-9f09-cc9c8a24d98c", "exp":"1543862196", "fiserv.identity.billpay.sponsorId":"45678", "fiserv.identity.billpay.subscriberId":"98796234567", "fiserv.identity.billpay.originator":"Subscriber", "fiserv.identity.billpay.channel":"Desktop”
+}
 
 
-## Code Tenant
-New Tenant can start with [Sample tenant repo](https://github.com/fiserv/sample-tenant) to setup Tenant server. Tenant can also build new codebase with choice of their own programming language. To learn more about this, please refere to [Code Tenant](?path=docs/getting-started/code-a-tenant/code-tenant.md)
-test
+## Start Making Requests
+
+After authentication you will be given an access token and a refresh token. The access token should beused in the authorization header: “Authorization: Bearer <access_token>”.
+The refresh token should be used within the configurable refreshinterval (set during client implementation, default 10 minutes).
+
+
+## Refresh an Access Token
+
+To renew the access token the standard OAuth refresh token process should be used.
+
+
+## Session Termination
+
+To end a session before the token expires, initiate a token revocation request:
+
+
 ___
 
-##  Next steps [Setup Tenant](?path=docs/getting-started/setup-tenant/setup-tenant.md)
-
-
-Need Help ?
-[FAQ](?path=docs/faq/faq.md)
-
-
-___
 
 
  
