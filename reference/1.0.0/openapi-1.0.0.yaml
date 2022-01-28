@@ -9,6 +9,8 @@ paths:
     get:
       tags:
         - AutomaticTransactions
+      x-group-name: Automatic Transactions
+      x-proxy-name: List Automatic Transactions
       summary: Gets a list of automatic transactions for the specified tenant/user combination
       operationId: GetAutomaticTransactions
       parameters:
@@ -210,6 +212,8 @@ paths:
     post:
       tags:
         - AutomaticTransactions
+      x-group-name: Automatic Transactions
+      x-proxy-name: Single Automatic Transaction
       summary: Creates a new automatic transaction using the given AutomaticTransaction object
       description: Note that there can be multiple automatic transactions associated with a single payee
       operationId: PostAutomaticTransaction
@@ -399,6 +403,8 @@ paths:
     delete:
       tags:
         - AutomaticTransactions
+      x-group-name: Automatic Transactions
+      x-proxy-name: Single Automatic Transaction  
       summary: Deletes an existing automatic transaction model that the user owns.
       description: "Deletes a user's automatic transaction model.\r\nThe operation takes an optional query parameter to determine whether or not spawned, pending transactions should be canceled.\r\nIf the query parameter is not submitted, it defaults to false, and no transactions are canceled."
       operationId: DeleteAutomaticTransaction
