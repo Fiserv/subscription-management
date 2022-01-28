@@ -213,7 +213,7 @@ paths:
       tags:
         - AutomaticTransactions
       x-group-name: Automatic Transactions
-      x-proxy-name: Single Automatic Transaction
+      x-proxy-name: Create Automatic Transaction
       summary: Creates a new automatic transaction using the given AutomaticTransaction object
       description: Note that there can be multiple automatic transactions associated with a single payee
       operationId: PostAutomaticTransaction
@@ -344,6 +344,8 @@ paths:
     get:
       tags:
         - AutomaticTransactions
+      x-group-name: Automatic Transactions
+      x-proxy-name: Get Automatic Transaction 
       summary: Gets an automatic transaction given an automatic transaction ID
       operationId: GetAutomaticTransactions
       parameters:
@@ -404,7 +406,7 @@ paths:
       tags:
         - AutomaticTransactions
       x-group-name: Automatic Transactions
-      x-proxy-name: Single Automatic Transaction  
+      x-proxy-name: Delete Automatic Transaction  
       summary: Deletes an existing automatic transaction model that the user owns.
       description: "Deletes a user's automatic transaction model.\r\nThe operation takes an optional query parameter to determine whether or not spawned, pending transactions should be canceled.\r\nIf the query parameter is not submitted, it defaults to false, and no transactions are canceled."
       operationId: DeleteAutomaticTransaction
@@ -471,6 +473,8 @@ paths:
     patch:
       tags:
         - AutomaticTransactions
+      x-group-name: Automatic Transactions
+      x-proxy-name: Update Automatic Transaction  
       summary: "The Automatic Transactions Patch API enables changes to be done to an automatic transaction that has been already set up.\r\nOnly the Delta changes are send in the request."
       operationId: PatchAutomaticTransaction
       parameters:
