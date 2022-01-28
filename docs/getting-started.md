@@ -15,9 +15,15 @@ Authentication to the Bill Pay APIs is achieved using OAuth 2.0 via a custom gra
 Here is a sample JWT payload:
 
 {
+
 "iss":"Second National Bank",
+
 "aud":"Fiserv",
-"iat":"1543861896", "jti":"b5d2bcef-0a8b-4218-9f09-cc9c8a24d98c", "exp":"1543862196", "fiserv.identity.billpay.sponsorId":"45678", "fiserv.identity.billpay.subscriberId":"98796234567", "fiserv.identity.billpay.originator":"Subscriber", "fiserv.identity.billpay.channel":"Desktop”
+
+"iat":"1543861896", "jti":"b5d2bcef-0a8b-4218-9f09-cc9c8a24d98c", "exp":"1543862196", "fiserv.identity.billpay.sponsorId":"45678", 
+
+"fiserv.identity.billpay.subscriberId":"98796234567", "fiserv.identity.billpay.originator":"Subscriber", "fiserv.identity.billpay.channel":"Desktop”
+
 }
 
 
