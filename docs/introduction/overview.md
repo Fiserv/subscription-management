@@ -5,5 +5,5 @@ Integrate with Bill Pay APIs and enable your consumers to:
 • Find bills by using information from credit report and biller statements with the consumer’s consent and select to add payees conveniently.
 • Receive alerts for due bills without giving up paper.
 • Make a bill payment to a managed or unmanaged business.
-• SignupforeBillsfromeBillcapablebillerstoreceiveafulleBillstatement.
+• Signupfor eBillsfrom eBill capable billers to receive a full eBill statement.
 • Automate payments and never be late with a payment again.
