@@ -60,17 +60,17 @@
 		"bug": {
 			"label": "bug,billpay",
 			"template": "bug.md",
-			"assignees": "matt.haar@fiserv.com"
+			"assignees": "fiserv-mhaar"
 		},
 		"feedback": {
 			"label": "feedback,billpay",
 			"template": "feedback.md",
-			"assignees": "matt.haar@fiserv.com"
+			"assignees": "fiserv-mhaar"
 		},
 		"enhancement": {
 			"label": "enhancement,billpay",
 			"template": "feature.md",
-			"assignees": "matt.haar@fiserv.com"
+			"assignees": "fiserv-mhaar"
 		}
 	}]
 }
