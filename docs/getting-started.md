@@ -1,4 +1,4 @@
-# Getting Started. This is a test.
+# Getting Started
 
 ## Welcome to Bill Pay!
 
