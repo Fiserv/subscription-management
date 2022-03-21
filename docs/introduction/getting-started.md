@@ -41,7 +41,7 @@ To renew the access token the standard OAuth refresh token process should be use
 
 ## Session Termination
 
-To end a session before the token expires, initiate a token revocation request:
+To end a session before the token expires, initiate a token revocation request: test123
 
 
 ___
