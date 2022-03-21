@@ -1,8 +1,9 @@
 # Getting Started
 
-## Welcome to Bill Pay!
+## Welcome to Bill Pay! This is a test!
 
 To get started with the Bill Pay APIs, follow these steps:
+This is a test!
  
 ## Register
 
