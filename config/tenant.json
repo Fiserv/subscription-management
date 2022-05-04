@@ -4,57 +4,73 @@
     "brand": "Fiserv",
     "brandLogoURL": "https://raw.githubusercontent.com/Fiserv/Developer-Portal-Tenant-API/develop/assets/images/Fiserv_Logo.jpg",
     "solution": ["financial-institutions"],
-    "brandDescription": "Fiserv Subscription Management solution is providing various API to integrate with different parties (Acquirer, FI Issuer) to enable them for Subscription Management capabilities consumers.We are using AllData PFM as data source to execute data engine to refine the merchant list and get pattern to find consumer subscription entries.This will also allows the consumer to add any new subscription entries to subscription entires.",
+    "brandDescription": "Bill Pay delivers compelling bill payment experiences in an increasingly competitive space and make it easy for consumers to pay bills and receive and view their bills electronically",
     "categories": [
+    {
+      "name": "businessTypes",
+      "value": "Business Types",
+      "subcategories": [
         {
-            "name": "businessTypes",
-            "value": "Business Types",
-            "subcategories": [
-                {
-                    "name": "valueAddedServices",
-                    "value": "Value Added Services"
-                }
-            ]
+          "name": "valueAddedServices",
+          "value": "Value Added Services"
         }
-    ],
-    "apiVersions": [
-        {
-            "version": "1.0.0",
-            "versionType": "major",
-            "releaseNotesPath": "/release-notes/release-notes-1.0.0.md",
-            "apiSpecFileNames": [
-                "api-1.0.0"
-            ]
-        }
-    ],
-    "product": {
-        "featured": true,
-        "logoURL": "https://raw.githubusercontent.com/Fiserv/Developer-Portal-Tenant-API/develop/assets/images/Portal_Logo.png",
-        "description": "To onboard properly into the Developer Studio as a tenant each product must support these APIs so that we can retrieve product specific API specifications and documentation.",
-        "longDescription": "To onboard properly into the Developer Studi as a tenant each product must support these APIs so that we can retrieve product specific API specifications and documentation.",
-        "apiSpecification": "/v1/apis",
-        "layout": "/v1/layouts",
-        "documentation": "/v1/docs",
-        "documenttree": "/v1/docs",
-        "documenttreeV2": "/v2/docs",
-        "feature": [
-            {
-                "name": "sandBox",
-                "value": false
-            },
-            {
-                "name": "plugins",
-                "value": false
-            },
-            {
-                "name": "industryOptionsAPIExplorer",
-                "value": false
-            },
-            {
-                "name": "editParameterAPIExplorer",
-                "value": false
-            }
-        ]
+      ]
     }
+  ],
+  
+  "apiVersions": [
+      {
+        "version": "1.0.0",
+        "versionType": "major",
+        "releaseNotesPath": "/release-notes/release-notes-1.0.0.md",
+        "apiSpecFileNames": ["openapi-1.0.0"]
+      }
+  ],
+  "product": {
+    "featured": true,
+    "logoURL": "https://raw.githubusercontent.com/Fiserv/Developer-Portal-Tenant-API/develop/assets/images/Portal_Logo.png",
+    "description": "REPLACE ME",
+    "longDescription":"REPLACE ME",
+    "apiSpecification": "/v1/apis/BillPay",
+    "layout": "/v1/layouts/BillPay",
+    "documentation": "/v1/docs/BillPay",
+    "documenttree": "/v1/docs/BillPay",
+    "documenttreeV2": "/v2/docs/BillPay",
+    "sandbox": "/v2/docs/BillPay",
+    "feature":[
+      {
+        "name": "sandBox",
+        "value": false
+      },
+      {
+        "name": "plugins",
+        "value": false
+      },
+      {
+        "name": "industryOptionsAPIExplorer",
+        "value": false
+      },
+      {
+        "name": "editParameterAPIExplorer",
+        "value": false
+      }
+  ]
+  },
+  "supportConfig": [{ 
+		"bug": {
+			"label": "bug,subscription-management",
+			"template": "bug.md",
+			"assignees": "fiserv-vickyltit"
+		},
+		"feedback": {
+			"label": "feedback,subscription-management",
+			"template": "feedback.md",
+			"assignees": "fiserv-vickyltit"
+		},
+		"enhancement": {
+			"label": "enhancement,subscription-management",
+			"template": "feature.md",
+			"assignees": "fiserv-vickyltit"
+		}
+	}]
 }
-
