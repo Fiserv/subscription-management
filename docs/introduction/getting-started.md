@@ -1,8 +1,8 @@
 # Getting Started
 
-## Welcome to Bill Pay! This is a test!
+## Welcome to Subscription Management!
 
-To get started with the Bill Pay APIs, follow these steps:
+To get started with the Subscritption Management APIs, follow these steps:
 This is a test!
  
 ## Register
@@ -12,7 +12,7 @@ Once agreements have been signed, a financial institution will work with Fiserv 
 
 ## Authenticate
 
-Authentication to the Bill Pay APIs is achieved using OAuth 2.0 via a custom grant. To obtain an access token, a JSON Web Token (JWT) must be constructed with some  minimum information: 
+Authentication to the Subscription Management APIs is achieved using OAuth 2.0 via a custom grant. To obtain an access token, a JSON Web Token (JWT) must be constructed with some  minimum information: 
 Here is a sample JWT payload:
 
 {
@@ -41,7 +41,7 @@ To renew the access token the standard OAuth refresh token process should be use
 
 ## Session Termination
 
-To end a session before the token expires, initiate a token revocation request: test123
+To end a session before the token expires, initiate a token revocation request
 
 
 ___
