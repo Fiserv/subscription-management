@@ -4,7 +4,7 @@
     "brand": "Fiserv",
     "brandLogoURL": "https://raw.githubusercontent.com/Fiserv/Developer-Portal-Tenant-API/develop/assets/images/Fiserv_Logo.jpg",
     "solution": ["financial-institutions"],
-    "brandDescription": "SUbscription Management delivers compelling bill payment experiences in an increasingly competitive space and make it easy for consumers to pay bills and receive and view their bills electronically",
+    "brandDescription": "Subscription Management delivers compelling bill payment experiences in an increasingly competitive space and make it easy for consumers to pay bills and receive and view their bills electronically",
     "categories": [
     {
       "name": "businessTypes",
@@ -31,12 +31,12 @@
     "logoURL": "https://raw.githubusercontent.com/Fiserv/Developer-Portal-Tenant-API/develop/assets/images/Portal_Logo.png",
     "description": "REPLACE ME",
     "longDescription":"REPLACE ME",
-    "apiSpecification": "/v1/apis/BillPay",
-    "layout": "/v1/layouts/BillPay",
-    "documentation": "/v1/docs/BillPay",
-    "documenttree": "/v1/docs/BillPay",
-    "documenttreeV2": "/v2/docs/BillPay",
-    "sandbox": "/v2/docs/BillPay",
+    "apiSpecification": "/v1/apis/SubscriptionManagement",
+    "layout": "/v1/layouts/SubscriptionManagement",
+    "documentation": "/v1/docs/SubscriptionManagement",
+    "documenttree": "/v1/docs/SubscriptionManagement",
+    "documenttreeV2": "/v2/docs/SubscriptionManagement",
+    "sandbox": "/v2/docs/SubscriptionManagement",
     "feature":[
       {
         "name": "sandBox",
