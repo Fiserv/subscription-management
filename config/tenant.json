@@ -1,11 +1,10 @@
 {
-  "title": "Developer Studio",
-  "name": "DeveloperPortal",
+  "title": "Subscription Management",
+  "name": "SubscriptionManagement",
   "brand": "Fiserv",
   "brandLogoURL": "https://raw.githubusercontent.com/Fiserv/Developer-Portal-Tenant-API/develop/assets/images/Fiserv_Logo.jpg",
-  "solution": ["financial-institutions"],
-  "brandDescription": "Fiserv, Inc. is a global provider of payments and financial services technology solutions. The Company provides account processing and digital banking solutions, card issuer processing and network services, payments, e-commerce, merchant acquiring and processing, and the Clover cloud-based point-of-sale solution. The Company operates through three segments: Merchant Acceptance (Acceptance), Financial Technology (Fintech) and Payments and Network (Payments).",
-  "categories": [
+  "solution": ["merchants"],
+  "brandDescription": "Fiserv Subscription Management solution is providing various API to integrate with different parties (Acquirer, FI Issuer) to enable them for Subscription Management capabilities consumers.We are using AllData PFM as data source to execute data engine to refine the merchant list and get pattern to find consumer subscription entries.This will also allows the consumer to add any new subscription entries to subscription entires."
     {
       "name": "businessTypes",
       "value": "Business Types",
