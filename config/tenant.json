@@ -1,11 +1,11 @@
 {
-  "title": "Bill Pay",
-  "name": "BillPay",
-  "brand": "Fiserv",
-  "brandLogoURL": "https://raw.githubusercontent.com/Fiserv/Developer-Portal-Tenant-API/develop/assets/images/Fiserv_Logo.jpg",
-  "solution": ["financial-institutions"],
-  "brandDescription": "Bill Pay delivers compelling bill payment experiences in an increasingly competitive space and make it easy for consumers to pay bills and receive and view their bills electronically",
-  "categories": [
+    "title": "Subscription Management",
+    "name": "SubscriptionManagement",
+    "brand": "Fiserv",
+    "brandLogoURL": "https://raw.githubusercontent.com/Fiserv/Developer-Portal-Tenant-API/develop/assets/images/Fiserv_Logo.jpg",
+    "solution": ["financial-institutions"],
+    "brandDescription": "SUbscription Management delivers compelling bill payment experiences in an increasingly competitive space and make it easy for consumers to pay bills and receive and view their bills electronically",
+    "categories": [
     {
       "name": "businessTypes",
       "value": "Business Types",
@@ -58,19 +58,19 @@
   },
   "supportConfig": [{ 
 		"bug": {
-			"label": "bug,billpay",
+			"label": "bug,subscription-management",
 			"template": "bug.md",
-			"assignees": "fiserv-mhaar"
+			"assignees": "fiserv-vickyltit"
 		},
 		"feedback": {
-			"label": "feedback,billpay",
+			"label": "feedback,subscription-management",
 			"template": "feedback.md",
-			"assignees": "fiserv-mhaar"
+			"assignees": "fiserv-vickyltit"
 		},
 		"enhancement": {
-			"label": "enhancement,billpay",
+			"label": "enhancement,subscription-management",
 			"template": "feature.md",
-			"assignees": "fiserv-mhaar"
+			"assignees": "fiserv-vickyltit"
 		}
 	}]
 }
