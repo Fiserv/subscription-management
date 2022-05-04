@@ -1,8 +1,8 @@
 # Getting Started
 
-## Welcome to Bill Pay!
+## Welcome to Sbscription Management!
 
-To get started with the Bill Pay APIs, follow these steps:
+To get started with the Subscription Management APIs, follow these steps:
  
 ## Register
 
@@ -40,8 +40,7 @@ To renew the access token the standard OAuth refresh token process should be use
 
 ## Session Termination
 
-To end a session before the token expires, initiate a token revocation request: Test123
-
+To end a session before the token expires, initiate a token revocation request
 
 ___
 
