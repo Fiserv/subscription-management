@@ -4,7 +4,9 @@
     "brand": "Fiserv",
     "brandLogoURL": "https://raw.githubusercontent.com/Fiserv/Developer-Portal-Tenant-API/develop/assets/images/Fiserv_Logo.jpg",
     "solution": ["financial-institutions"],
-    "brandDescription": "Subscription Management delivers compelling bill payment experiences in an increasingly competitive space and make it easy for consumers to pay bills and receive and view their bills electronically",
+    "brandDescription": "Subscription Management process is to analyze FI’s consumers Transaction data to List Existing Subscription list of consumer, Create Alerts for Subscriptions expiration or renewals, Allow user to Add new (existing / trial) Subscription Entries, Get Personalized Subscription Information.This product will also provide Product admin to get and manage (Add/Update) Merchant details"
+
+
     "categories": [
     {
       "name": "businessTypes",
@@ -29,8 +31,8 @@
   "product": {
     "featured": true,
     "logoURL": "https://raw.githubusercontent.com/Fiserv/Developer-Portal-Tenant-API/develop/assets/images/Portal_Logo.png",
-    "description": "REPLACE ME",
-    "longDescription":"REPLACE ME",
+    "description": "",
+    "longDescription":"Subscription Management process is to analyze FI’s consumers Transaction data to List Existing Subscription list of consumer, Create Alerts for Subscriptions expiration or renewals, Allow user to Add new (existing / trial) Subscription Entries, Get Personalized Subscription Information.This product will also provide Product admin to get and manage (Add/Update) Merchant details",
     "apiSpecification": "/v1/apis/SubscriptionManagement",
     "layout": "/v1/layouts/SubscriptionManagement",
     "documentation": "/v1/docs/SubscriptionManagement",
