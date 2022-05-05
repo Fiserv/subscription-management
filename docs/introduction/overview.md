@@ -1,10 +1,8 @@
 # Overview
 
-Bill Pay is the next generation of bill pay services from Fiserv enabling financial institutions to build a customized bill pay experience that is simpler, smarter, and faster, and that positions them to be first-in-line for their account holders’ digital payment needs. It is a collection of simple, powerful, secure, and reliable RESTful APIs that provide access to Fiserv’s powerful and industry leading payment processing capabilities.
-Integrate with Bill Pay APIs and enable your consumers to:
+Fiserv Subscription Management solution is providing various API to integrate with different parties (Acquirer, FI Issuer)
+to enable them for Subscription Management capabilities consumers.
 
-- Find bills by using information from credit report and biller statements with the consumer’s consent and select to add payees conveniently.
-- Receive alerts for due bills without giving up paper.
-- Make a bill payment to a managed or unmanaged business.
-- Signup for eBills from eBill capable billers to receive a full eBill statement.
-- Automate payments and never be late with a payment again.
+We are using AllData PFM as data source to execute data engine to refine the merchant list and get pattern to find consumer subscription entries.
+
+This will also allows the consumer to add any new subscription entries to subscription entires.
