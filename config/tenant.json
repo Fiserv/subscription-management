@@ -36,7 +36,7 @@
     "documentation": "/v1/docs/SubscriptionManagement",
     "documenttree": "/v1/docs/SubscriptionManagement",
     "documenttreeV2": "/v2/docs/SubscriptionManagement",
-    "sandbox": "/v2/docs/SubscriptionManagement",
+    "sandbox": "/v1/sandbox/SubscriptionManagement",
     "feature":[
       {
         "name": "sandBox",
