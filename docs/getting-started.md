@@ -1,6 +1,6 @@
 # Getting Started
 
-## Welcome to Sbscription Management!
+## Welcome to Subscription Management!
 
 To get started with the Subscription Management APIs, follow these steps:
  
