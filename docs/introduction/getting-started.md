@@ -3,7 +3,6 @@
 ## Welcome to Subscription Management!
 
 To get started with the Subscritption Management APIs, follow these steps:
-This is a test!
  
 ## Register
 
